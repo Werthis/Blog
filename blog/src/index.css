@@ -8,7 +8,7 @@
 }
 .navbar {
   padding: 20px;
-  /* odległość między elementami w każdą stronę */
+  /* odległość między elementami wewnątrz w każdą stronę */
   display: flex;
   align-items: center;
   max-width: 600px;
@@ -27,7 +27,7 @@
   padding: 6px;
 }
 .navbar a:hover {
-  color: #bc35f1e0;
+  color: #7e12129c;
 }
 /* zmiana koloru jeśli najedziemy */
 
@@ -35,4 +35,17 @@
   max-width: 600px;
   margin: 40px auto;
   padding: 20px;
+}
+.myApp-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.myApp-preview:hover {
+  box-shadow: 1px 3px 5px #7e12129c;
+}
+.myApp-preview h2 {
+  font-size: 20px;
+  color: #7e12129c;
+  margin-bottom: 8px;
 }

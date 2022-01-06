@@ -1,10 +1,10 @@
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <h1>The Blog</h1>
+      <h1>React Web Apps</h1>
       <div className="links">
         <a href="/">Home</a>
-        <a
+        {/* <a
           href="/create"
           style={{
             color: "white",
@@ -13,7 +13,7 @@ const Navbar = () => {
           }}
         >
           New Page
-        </a>
+        </a> */}
       </div>
     </nav>
   );
