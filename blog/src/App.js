@@ -1,5 +1,7 @@
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
+// for json server write:
+// npx json-server --watch data/dataBase.json --port 8000
 
 const App = () => {
   return (
