@@ -31,6 +31,23 @@ it("checking option role and name", () => {
 
 it("find by text first label", async () => {
   render(<Create />);
-  const firstLabelElement = await screen.findByText(/Create new app/i);
-  expect(firstLabelElement).toBeInTheDocument();
+  const findByElement = await screen.findByText(/Create new app/i);
+  expect(findByElement).toBeInTheDocument();
+});
+
+// QUERY BY
+// (not.toBeInTheDocument)
+
+it("not to be in", async () => {
+  render(<Create />);
+  const notToBeElement = screen.queryByText(/Hakuna Matata/i);
+  expect(notToBeElement).not.toBeInTheDocument();
+});
+
+// getAllBy
+
+it("not to be in", async () => {
+  render(<Create />);
+  const optionElements = screen.getAllByRole("option");
+  expect(optionElements.length).toBe(2);
 });
