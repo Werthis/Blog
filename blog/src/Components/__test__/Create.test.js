@@ -51,3 +51,15 @@ it("not to be in", async () => {
   const optionElements = screen.getAllByRole("option");
   expect(optionElements.length).toBe(2);
 });
+
+it("checking input value", async () => {
+  render(<Create />);
+  const navElement = screen.getByTestId("titleInput");
+  expect(navElement.value).toBe("");
+});
+
+it("checking input value", async () => {
+  render(<Create />);
+  const navElement = screen.getByRole("option", { name: "Werthis" });
+  expect(navElement.value).toBe("Werthis");
+});

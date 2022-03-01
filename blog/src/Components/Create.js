@@ -28,6 +28,7 @@ const Create = () => {
       <form onSubmit={handleSubmit}>
         <label>App title:</label>
         <input
+          data-testid="titleInput"
           type="text"
           required
           value={title}
