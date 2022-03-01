@@ -33,12 +33,14 @@ const Create = () => {
           required
           value={title}
           onChange={(e) => setTitle(e.target.value)}
+          placeholder="Add a title..."
         />
         <label>App body:</label>
         <textarea
           required
           value={body}
           onChange={(e) => setBody(e.target.value)}
+          placeholder="Add text..."
         ></textarea>
         <label>App author:</label>
         <select value={author} onChange={(e) => setAuthor(e.target.value)}>
