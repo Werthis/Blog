@@ -19,10 +19,22 @@
       "id": 3
     },
     {
-      "title": "asdas",
-      "body": "asdas",
+      "title": "New Article",
+      "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, amet facilis? Similique corporis ducimus explicabo eum sint delectus praesentium cum aut. Reprehenderit similique saepe, beatae iusto molestias omnis amet nobis.",
       "author": "Werthis",
       "id": 4
+    },
+    {
+      "title": "New Article",
+      "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, amet facilis? Similique corporis ducimus explicabo eum sint delectus praesentium cum aut. Reprehenderit similique saepe, beatae iusto molestias omnis amet nobis.",
+      "author": "Werthis",
+      "id": 5
+    },
+    {
+      "title": "New Article",
+      "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, amet facilis? Similique corporis ducimus explicabo eum sint delectus praesentium cum aut. Reprehenderit similique saepe, beatae iusto molestias omnis amet nobis.",
+      "author": "Werthis",
+      "id": 6
     }
   ]
 }

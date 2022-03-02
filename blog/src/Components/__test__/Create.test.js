@@ -105,3 +105,27 @@ describe("Input functionality", () => {
     );
   });
 });
+
+// describe("Create integration", () => {
+//   it("checking apply event", async () => {
+//     render(<Create />);
+//     const inputTitleElement = screen.getByPlaceholderText(/Add a title.../i);
+//     const inputBodyElement = screen.getByPlaceholderText(/Add text.../i);
+//     const buttonSubmitElement = screen.getByRole("button", {
+//       name: /Add App/i,
+//     });
+//     fireEvent.change(inputTitleElement, { target: { value: "New Article" } });
+//     fireEvent.change(inputBodyElement, {
+//       target: {
+//         value:
+//           "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, amet facilis? Similique corporis ducimus explicabo eum sint delectus praesentium cum aut. Reprehenderit similique saepe, beatae iusto molestias omnis amet nobis.",
+//       },
+//     });
+//     fireEvent.click(buttonSubmitElement);
+//     expect(inputTitleElement.value).toBe("New Article");
+//     expect(inputBodyElement.value).toBe(
+//       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, amet facilis? Similique corporis ducimus explicabo eum sint delectus praesentium cum aut. Reprehenderit similique saepe, beatae iusto molestias omnis amet nobis."
+//     );
+//   });
+
+// })
